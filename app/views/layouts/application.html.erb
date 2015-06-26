@@ -2,11 +2,19 @@
 <html>
 <head>
   <title>Nameofapp</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<h1>Welcome to Eastern Manner Skateboards</h1>
+<h2>Your source for the highest quality botique skateboards</h2>
+
+<img src="/images/arbor.jpg" alt="featuredproduct">
 
 <%= yield %>
 
